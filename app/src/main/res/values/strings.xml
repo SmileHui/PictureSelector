@@ -2,6 +2,9 @@
 
     <string name="app_name">图片选择器</string>
     <string name="rc_permission_grant_needed">您需要在设置中打开权限</string>
+    <string name="rc_permission_microphone">（麦克风）。</string>
+    <string name="rc_permission_microphone_and_camera">（麦克风，相机）。</string>
+    <string name="rc_permission_camera">（相机）。</string>
     <string name="rc_confirm">确认</string>
     <string name="rc_cancel">取消</string>
 
