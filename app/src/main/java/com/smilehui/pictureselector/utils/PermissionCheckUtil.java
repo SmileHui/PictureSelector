@@ -180,7 +180,7 @@ public class PermissionCheckUtil {
 
     @TargetApi(11)
     private static void showPermissionAlert(Context context, String content, OnClickListener listener) {
-        (new Builder(context, 16974394)).setMessage(content)
+        (new Builder(context, android.R.style.Theme_Material_Light_Dialog_Alert)).setMessage(content)
                 .setPositiveButton(R.string.rc_confirm, listener)
                 .setNegativeButton(R.string.rc_cancel, listener)
                 .setCancelable(false).create().show();
